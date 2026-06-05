@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="data:image/png;base64,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d7/5x6VXXhltzs/92Z/NPvusrzVodKVSq9U69csPRicnqrUaSQshMm7O6cP37ky7bV3GGjEPaArznjGqYwKNGUZz7zf0EzBjowxGGAXQrFKrHdz308Mvv1gql2FsNEZqtdqRw6/+97/6iz/9+tezNHMiLLCgJElkQgDQOYPla+f9X/7xn/zNt/7kpUMHyuVSY3QUUJ8kb7919NlHHqtV68FswMANMYU5yZ7/galQxUc3KWiVgWlQMKR9PyOgzs0unHpi1+7zLriw12499dDuPffuemH/z95969inv/j5NWetm5+bU+doJGXNt775xsnZ9rvHp377a2OXfMSaTXEuTdOpqcmLL7/8u3/1H/fuvn/T1ktv2nHLR664enxq8v5HHz/5/onRsbEQ0sHaL24qB5WJNIFC8ixkAoXlw6bioZzMGMKvtFCt1J55dE99YmTvQw8eeellQBrV2opVqz5+x6diUwtAVEOnM3nFleWd/9ReWJg+59xeswl1AFS12+vdcMv2B//hrm63/Yunn3r+iSfXrF9/447tT+3ZUy4nkZDqC6qGIWZkwDGoiFAofdxdMIcimUreAfY51H7QkPS+dOrE+z/4m//09quv1kfqjbGRTqtz3tatGzed3+50+qQnjQn46O4HH77/wYTsx6uI9LrdtWeuv+ijV7ZbnfpofWyk9svjb/7wO99++/XXytUKbZCXoqB9xnbA8UYUbFSjouBQCxEBuliw+91NXz2aA52Iq0+MJ5WqBYNlGcKNt97uvMfQpFFU0izb+8CDj+26d6HV9N4PF3cKb7x1B5wyWDBLSpXR0SmfJLSc+hk0pQWfHuc0S6YhStFCnwElP2yrnIjMLRobaxIIIRhNRLvd7tozz7zoisuWMD+VavWF5/e/+crL77/99v6n91WqVQsFBavabrbO27pl/cYN7U5HVEhmWWYF7ZN374tIuD56WDxJABWAQjSGN/MefEk3L/k0QegYNFgx4VGVbju9Ztu2yakz1KuRkVYhqM49eu99aTcTkb337UTI607MvM770dHJ67bdknZTqoRoaNPoIzkHUXCJlDx4i05/yJJ5S5mjVhVRGgUm4pawohGwLqHxg1m1Xn30gQd7ney6HdvO3rhRRFvNVuKTd48e/fneJ6u1mkIP7nvm9ddeXr1+feiGeqMB8M1XDz/2wP1PP7ynWq8Fy+08vGT9sXFEzdE5C3dYJIPv0y0kJY7tVBxjwyDI865AaMjYj+sYGkan7tQ7x+/+u+/f/6O7t1720Rtvu2XLZZc2GuM7H3rw5AfvjI9PCPXE3Pzjux/6wr/8nWZn7pnHH3/knp8899Ofzp2aq1S9LyWgQiAaQM3B//CIyehEQtGa536znF4nBKQK4oQyVm6jeUIBSuFaFKUQMIGjKAiylJQqlZplYd8jD+97dM+ZG8+9fvu2vbsfqFZKZEZqtVJ6Zs9jjUbj8QcfOPLiq5ml5ZH6+MQYQzCLUWUQg1Lo84gd0gFGIVTVgqGgqPt5Vu687noxBiee2QxxjEZVZy6FpYIK1ItCA0BTFYiaj2NqRxUJUsSD5NQ0u+1Ot9er1uuR+M95KGNroekTXy1X6LSHzAUndACDQGga30PHRWAn30NhYGohC9ZNMy8Yq9Xj2FZEvIEiUFKQQFMYFAIRA1xRCgiIRtABSJqzFUXOFBHAATALgJQq1UqtSqOZiDgiA+CcjE2MmdHMhHSUfDgqcHBWTEoZ23RqBDV9br34HVthFaggRGdTRLQDhNSYZTF0siwzksEYzMhAAsjSNIRM4EiaBYBmJkAIIaRWFCAhmaZZmmWApGlWLCRDsMgphyxzEBUhM8vSqGiaZcGMYJp10qxNGskQgqikoAnyUkj0ummWBRQdr8azRnfexRdObdiMwFqlPjGzquRcuVKpjI0ktVqlOhKCTa2cGZuczlL4Uq3kaqmhNlIPZo2J6YkV077szEyEZqHeGBmbXmnCFWetMTMCrlSCKA3VkdHRlSuZlOg0GWlUJsZ9vQLnJ6dXlqsVqoyvmp6cmXHlspYr1ZGRFKg2Gt1eOtIYEaWIrFy9emxqYjFOoxhQbzTG167Jgk7NrJlZty7SB5u2XrT+3HN6vda5F251zo+fccaqs9aqumtu3T65YuX42HiWhfWbN6bsnrvlwlK5TBrNyo3aBZd9ZHRqcuMF54csY2YXX3VtfXyi215YtW7thi1bz1i5qtvtbLnsslXrz85anXqjcc7mzQBClo2OTs6sWd+Zb01NTs6sW9udb112zdUbzt80dsYEaBsvuoBOEu+TJMktEGuWqJhl5WC1ifGUdE59uXRy9tT87JyR86dOjozUW612L01rtbqIvPriS+dtuWBkciKELFHXaTZLiXPqcg5K0Wm31519zsL8gk9KK89cYxbWb9xgAopWa7XMUpClSn10ZCxkqQidqIq3LGs1F3qdVqfVgiqIUql05PXXK436hgvPb6dZpVptnjpZmxipjjXMTFU9LZYtnvjlCYYsnZtfSBKv8OVyuVx+7+23FVJvNA49+/PpVauyNH39taO10frc229/8PrhsamJJCm9e+zY9MqZN155qdNpO+dowXrZqwcOSmblsbomPrPswJNPrFgzU240Tr7/zgdvH0u8L5crh5973kIYmRpptuffPX6sXC47dd1O89RJq9QqzYX5LO1579uz828eeunkuplKqfzygYNTMyua8/NzJ2edcyTlc1ddKVoyp+ym66T3nncZxUwzIZz4IE5ESkKahWCQxJU9QULUiJC4JE1TCEQ1SZIYanGiIUBEDSHLnPdZmvoksRAAEHDOhZCRVFWB9NIU3qlosGAWyq4a84dzLmTBedfqtpH4VrsdsmyqPtof+XhxPiKoUqmUgDTzPiGchV4gvHNOJGMQEZ8kgzGbAgKviRl9kmCIBiTpIrEu4kRo5pOEZFIqxUss6r735RzfkKWSZGAgVVVVgwVRcXAgfaIGJqVyyuBUXZL4JIncNUkPUQVMrL/BgNQcEZIZjAMmg85gEmLa9nHuWfR4KEBgf9tbP4Uv332S996Wzxki0nQskA5pEgroDEVg5OkGfc3gEz7vdwjQqGak0oKRZqpikuOLEIIDi72CxdS8OAq4yg8700dqhQ6xJGW5PMj3FHnCgCBQaJ7eARqE+SRcim1eA96XZKAJhAwRTtOKVsYgECGcqaPSjHnRlaIuFkvSZ2GHjkEpPf2mDhZ/B9aLkBgYwhIARMi+6dC3sKqKiGcE8SJxpRUeKiAUYiBBC+adOgVRVggRIg22vGEYXmP292p9+AaC5Ue82ZlQ4oQIjGy5o1KDWQEtpOiu4AXinY94NA5wGDcEUM1ChB45SIibq067mh8iymnP/wodcksCas5B8p1C6EWoj9wCGLaQOsIRAlGoQqJfGhiECnG5t1DgSTPrLVnUpc3br5R++JFf/WCOIGGOWd4kgPluGl30rIZIMtJCsL5i/dme5j/yDVMxxw3LPez9v0Lo5Qr0f+jQs/FdcdDSp0Tyqzk5JySkcG+CHl4JOBURhWQqYiJCONFMDIAjgguUuMVUlwj6/yn6cs9ZFN9x23bcqgtAxDH6qpipkEbGRpyRtpJAzfFvZOYCmAggkf0rOopiViNCHxu5YaJA4joN8fF96kCKvIc+I5NTl8V+KaDYe4W4UcsVnE9xu6MJJUU+IUbc2iRQwnq94BIXFfQIqXgVWNzbqTAiiMR9ZWoiIuLUkUbLVFSoRRnIaRoRCUoQapHuz0eDseMM6Fck5JOtOANTzZGfUVRiDU/ywhwpZSpdvsHDTEGhKRjESj6Je19VnV8RTC0TBCrHGLqZZC44EctCgPnYianGnQOmolBV7bPcKpDC9AK1GGcWi3QAjeJEfNFhAQQt5uC8bBuCoBhTFyXOBrPGPNKMZoHdXs/AEd+JdlLq/wXGHzCRJUX6ogAAAABJRU5ErkJggg==">
+    <link rel="icon" type="image/png" href="data:image/png;base64,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d7/5x6VXXhltzs/92Z/NPvusrzVodKVSq9U69csPRicnqrUaSQshMm7O6cP37ky7bV3GGjEPaArznjGqYwKNGUZz7zf0EzBjowxGGAXQrFKrHdz308Mvv1gql2FsNEZqtdqRw6/+97/6iz/9+tezNHMiLLCgJElkQgDQOYPla+f9X/7xn/zNt/7kpUMHyuVSY3QUUJ8kb7919NlHHqtV68FswMANMYU5yZ7/galQxUc3KWiVgWlQMKR9PyOgzs0unHpi1+7zLriw12499dDuPffuemH/z95969inv/j5NWetm5+bU+doJGXNt775xsnZ9rvHp377a2OXfMSaTXEuTdOpqcmLL7/8u3/1H/fuvn/T1ktv2nHLR664enxq8v5HHz/5/onRsbEQ0sHaL24qB5WJNIFC8ixkAoXlw6bioZzMGMKvtFCt1J55dE99YmTvQw8eeellQBrV2opVqz5+x6diUwtAVEOnM3nFleWd/9ReWJg+59xeswl1AFS12+vdcMv2B//hrm63/Yunn3r+iSfXrF9/447tT+3ZUy4nkZDqC6qGIWZkwDGoiFAofdxdMIcimUreAfY51H7QkPS+dOrE+z/4m//09quv1kfqjbGRTqtz3tatGzed3+50+qQnjQn46O4HH77/wYTsx6uI9LrdtWeuv+ijV7ZbnfpofWyk9svjb/7wO99++/XXytUKbZCXoqB9xnbA8UYUbFSjouBQCxEBuliw+91NXz2aA52Iq0+MJ5WqBYNlGcKNt97uvMfQpFFU0izb+8CDj+26d6HV9N4PF3cKb7x1B5wyWDBLSpXR0SmfJLSc+hk0pQWfHuc0S6YhStFCnwElP2yrnIjMLRobaxIIIRhNRLvd7tozz7zoisuWMD+VavWF5/e/+crL77/99v6n91WqVQsFBavabrbO27pl/cYN7U5HVEhmWWYF7ZN374tIuD56WDxJABWAQjSGN/MefEk3L/k0QegYNFgx4VGVbju9Ztu2yakz1KuRkVYhqM49eu99aTcTkb337UTI607MvM770dHJ67bdknZTqoRoaNPoIzkHUXCJlDx4i05/yJJ5S5mjVhVRGgUm4pawohGwLqHxg1m1Xn30gQd7ney6HdvO3rhRRFvNVuKTd48e/fneJ6u1mkIP7nvm9ddeXr1+feiGeqMB8M1XDz/2wP1PP7ynWq8Fy+08vGT9sXFEzdE5C3dYJIPv0y0kJY7tVBxjwyDI865AaMjYj+sYGkan7tQ7x+/+u+/f/6O7t1720Rtvu2XLZZc2GuM7H3rw5AfvjI9PCPXE3Pzjux/6wr/8nWZn7pnHH3/knp8899Ofzp2aq1S9LyWgQiAaQM3B//CIyehEQtGa536znF4nBKQK4oQyVm6jeUIBSuFaFKUQMIGjKAiylJQqlZplYd8jD+97dM+ZG8+9fvu2vbsfqFZKZEZqtVJ6Zs9jjUbj8QcfOPLiq5ml5ZH6+MQYQzCLUWUQg1Lo84gd0gFGIVTVgqGgqPt5Vu687noxBiee2QxxjEZVZy6FpYIK1ItCA0BTFYiaj2NqRxUJUsSD5NQ0u+1Ot9er1uuR+M95KGNroekTXy1X6LSHzAUndACDQGga30PHRWAn30NhYGohC9ZNMy8Yq9Xj2FZEvIEiUFKQQFMYFAIRA1xRCgiIRtABSJqzFUXOFBHAATALgJQq1UqtSqOZiDgiA+CcjE2MmdHMhHSUfDgqcHBWTEoZ23RqBDV9br34HVthFaggRGdTRLQDhNSYZTF0siwzksEYzMhAAsjSNIRM4EiaBYBmJkAIIaRWFCAhmaZZmmWApGlWLCRDsMgphyxzEBUhM8vSqGiaZcGMYJp10qxNGskQgqikoAnyUkj0ummWBRQdr8azRnfexRdObdiMwFqlPjGzquRcuVKpjI0ktVqlOhKCTa2cGZuczlL4Uq3kaqmhNlIPZo2J6YkV077szEyEZqHeGBmbXmnCFWetMTMCrlSCKA3VkdHRlSuZlOg0GWlUJsZ9vQLnJ6dXlqsVqoyvmp6cmXHlspYr1ZGRFKg2Gt1eOtIYEaWIrFy9emxqYjFOoxhQbzTG167Jgk7NrJlZty7SB5u2XrT+3HN6vda5F251zo+fccaqs9aqumtu3T65YuX42HiWhfWbN6bsnrvlwlK5TBrNyo3aBZd9ZHRqcuMF54csY2YXX3VtfXyi215YtW7thi1bz1i5qtvtbLnsslXrz85anXqjcc7mzQBClo2OTs6sWd+Zb01NTs6sW9udb112zdUbzt80dsYEaBsvuoBOEu+TJMktEGuWqJhl5WC1ifGUdE59uXRy9tT87JyR86dOjozUW612L01rtbqIvPriS+dtuWBkciKELFHXaTZLiXPqcg5K0Wm31519zsL8gk9KK89cYxbWb9xgAopWa7XMUpClSn10ZCxkqQidqIq3LGs1F3qdVqfVgiqIUql05PXXK436hgvPb6dZpVptnjpZmxipjjXMTFU9LZYtnvjlCYYsnZtfSBKv8OVyuVx+7+23FVJvNA49+/PpVauyNH39taO10frc229/8PrhsamJJCm9e+zY9MqZN155qdNpO+dowXrZqwcOSmblsbomPrPswJNPrFgzU240Tr7/zgdvH0u8L5crh5973kIYmRpptuffPX6sXC47dd1O89RJq9QqzYX5LO1579uz828eeunkuplKqfzygYNTMyua8/NzJ2edcyTlc1ddKVoyp+ym66T3nncZxUwzIZz4IE5ESkKahWCQxJU9QULUiJC4JE1TCEQ1SZIYanGiIUBEDSHLnPdZmvoksRAAEHDOhZCRVFWB9NIU3qlosGAWyq4a84dzLmTBedfqtpH4VrsdsmyqPtof+XhxPiKoUqmUgDTzPiGchV4gvHNOJGMQEZ8kgzGbAgKviRl9kmCIBiTpIrEu4kRo5pOEZFIqxUss6r735RzfkKWSZGAgVVVVgwVRcXAgfaIGJqVyyuBUXZL4JIncNUkPUQVMrL/BgNQcEZIZjAMmg85gEmLa9nHuWfR4KEBgf9tbP4Uv332S996Wzxki0nQskA5pEgroDEVg5OkGfc3gEz7vdwjQqGak0oKRZqpikuOLEIIDi72CxdS8OAq4yg8700dqhQ6xJGW5PMj3FHnCgCBQaJ7eARqE+SRcim1eA96XZKAJhAwRTtOKVsYgECGcqaPSjHnRlaIuFkvSZ2GHjkEpPf2mDhZ/B9aLkBgYwhIARMi+6dC3sKqKiGcE8SJxpRUeKiAUYiBBC+adOgVRVggRIg22vGEYXmP292p9+AaC5Ue82ZlQ4oQIjGy5o1KDWQEtpOiu4AXinY94NA5wGDcEUM1ChB45SIibq067mh8iymnP/wodcksCas5B8p1C6EWoj9wCGLaQOsIRAlGoQqJfGhiECnG5t1DgSTPrLVnUpc3br5R++JFf/WCOIGGOWd4kgPluGl30rIZIMtJCsL5i/dme5j/yDVMxxw3LPez9v0Lo5Qr0f+jQs/FdcdDSp0Tyqzk5JySkcG+CHl4JOBURhWQqYiJCONFMDIAjgguUuMVUlwj6/yn6cs9ZFN9x23bcqgtAxDH6qpipkEbGRpyRtpJAzfFvZOYCmAggkf0rOopiViNCHxu5YaJA4joN8fF96kCKvIc+I5NTl8V+KaDYe4W4UcsVnE9xu6MJJUU+IUbc2iRQwnq94BIXFfQIqXgVWNzbqTAiiMR9ZWoiIuLUkUbLVFSoRRnIaRoRCUoQapHuz0eDseMM6Fck5JOtOANTzZGfUVRiDU/ywhwpZSpdvsHDTEGhKRjESj6Je19VnV8RTC0TBCrHGLqZZC44EctCgPnYianGnQOmolBV7bPcKpDC9AK1GGcWi3QAjeJEfNFhAQQt5uC8bBuCoBhTFyXOBrPGPNKMZoHdXs/AEd+JdlLq/wXGHzCRJUX6ogAAAABJRU5ErkJggg==">
+    <title>RedX — Creative Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+<body>
+
+    <!-- Loader -->
+    <div id="loader">
+        <div class="loader-pct" id="loaderPct">0</div>
+        <div class="loader-logo">RED<span>X</span></div>
+        <div class="loader-bar-wrap">
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-logo" onclick="navigateTo('home')">RED<span>X</span></div>
+        <ul class="nav-links">
+            <li><a onclick="navigateTo('services')" class="nav-link" data-page="services">Services</a></li>
+            <li><a onclick="navigateTo('work')" class="nav-link" data-page="work">Work</a></li>
+            <li><a onclick="navigateTo('about')" class="nav-link" data-page="about">About</a></li>
+            <li><a onclick="navigateTo('studio')" class="nav-link" data-page="studio">Studio</a></li>
+            <li><a onclick="navigateTo('contact')" class="nav-link" data-page="contact">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <button class="theme-toggle" onclick="toggleTheme()" id="themeToggle" title="Toggle theme">
+                <div class="theme-toggle-knob" id="themeKnob">🌙</div>
+            </button>
+            <button class="btn-talk" onclick="navigateTo('contact')">
+                Let's Talk
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 8h10M9 4l4 4-4 4" />
+                </svg>
+            </button>
+            <button class="menu-toggle" onclick="toggleMenu()" id="menuBtn">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" onclick="toggleMenu()">✕</button>
+        <a onclick="navigateTo('home'); toggleMenu()">Home</a>
+        <a onclick="navigateTo('services'); toggleMenu()">Services</a>
+        <a onclick="navigateTo('work'); toggleMenu()">Work</a>
+        <a onclick="navigateTo('studio'); toggleMenu()">Studio</a>
+        <a onclick="navigateTo('about'); toggleMenu()">About</a>
+        <a onclick="navigateTo('contact'); toggleMenu()">Contact</a>
+    </div>
+
+    <!-- ============================================================
+     PAGE 1: HOME
+============================================================ -->
+    <div id="home" class="page">
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-eyebrow">We Are RedX</div>
+                <h1>We Create<br>Visuals That<br>Move Brands<em>.</em></h1>
+                <p>A creative studio specializing in photography, videography, marketing and design that helps brands
+                    stand out and grow.</p>
+                <button class="btn-primary" onclick="navigateTo('work')">
+                    View Our Work
+                    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                        <path d="M3 8h10M9 4l4 4-4 4" />
+                    </svg>
+                </button>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-num">200<span>+</span></div>
+                        <div class="stat-label">Projects Done</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num">50<span>+</span></div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num">98<span>%</span></div>
+                        <div class="stat-label">Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-img-wrap">
+                    <div class="hero-camera-bg"></div>
+                    <div class="hero-img-placeholder" style="background:none;border:none;"><img
+                            src="./images/red 2.jpeg" style="width:100%;height:100%;object-fit:contain;" alt="Camera">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="home-services">
+            <div class="services-header">
+                <div>
+                    <div class="section-tag">Services</div>
+                    <h2>What We Do</h2>
+                </div>
+                <p>Creative solutions that help your brand grow and stand out from the competition.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" onclick="navigateTo('services')">
+                    <div class="service-img-thumb"><img src="./images/camera ser.png" alt="Photography"></div>
+                    <h3>Photography</h3>
+                    <p>High-quality photography for products, portraits, events and campaigns that leave a lasting
+                        impression.</p>
+                </div>
+                <div class="service-card" onclick="navigateTo('services')">
+                    <div class="service-img-thumb"><img src="./images/video img.png" alt="Video Production"></div>
+                    <h3>Video Production</h3>
+                    <p>Cinematic videos that tell your brand story and connect with your audience on a deeper level.</p>
+                </div>
+                <div class="service-card" onclick="navigateTo('services')">
+                    <div class="service-img-thumb"><img src="./images/marketing img.png" alt="Marketing"></div>
+                    <h3>Marketing</h3>
+                    <p>Data-driven marketing strategies that grow your board and increase results significantly.</p>
+                </div>
+                <div class="service-card" onclick="navigateTo('services')">
+                    <div class="service-img-thumb"><img src="./images/design.png" alt="Branding"></div>
+                    <h3>Branding & Design</h3>
+                    <p>Strong visual identity and creative design that makes your brand unforgettable and unique.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Selected Projects -->
+        <section class="home-projects">
+            <div class="projects-header">
+                <div>
+                    <div class="section-tag">Our Work</div>
+                    <h2>Selected Projects</h2>
+                </div>
+                <button class="btn-outline" onclick="navigateTo('work')">
+                    View All Projects
+                    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 8h10M9 4l4 4-4 4" />
+                    </svg>
+                </button>
+            </div>
+            <div class="projects-grid-home">
+                <div class="project-thumb" onclick="navigateTo('work-details')">
+                    <img src="./images/brand.png" style="width:100%;height:100%;object-fit:cover;" alt="">
+                    <div class="project-thumb-info">
+                        <span>Branding</span>
+                        <h4>Kernet</h4>
+                    </div>
+                </div>
+                <div class="project-thumb" onclick="navigateTo('work-details')">
+                    <img src="./images/toja.png" style="width:100%;height:100%;object-fit:cover;" alt="">
+                    <div class="project-thumb-info">
+                        <span>Social Media</span>
+                        <h4>Toja Campaign</h4>
+                    </div>
+                </div>
+                <div class="project-thumb" onclick="navigateTo('work-details')">
+                    <img src="./images/deliver 2.png" style="width:100%;height:100%;object-fit:cover;" alt="">
+                    <div class="project-thumb-info">
+                        <span>Digital Marketing</span>
+                        <h4>Driver</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+
+    </div>
+
+    <!-- ============================================================
+     PAGE 2: SERVICES
+============================================================ -->
+    <div id="services" class="page">
+        <div class="page-hero">
+            <div>
+                <div class="section-tag">Services</div>
+                <h1>Solutions That<br>Drive <em>Results.</em></h1>
+            </div>
+            <div class="page-hero-right">
+                <p>We combine creativity, strategy and technology to deliver powerful results for your brand. Every
+                    project is crafted with purpose and precision.</p>
+            </div>
+        </div>
+
+        <div class="services-detail">
+            <!-- Photography -->
+            <div class="service-row">
+                <div class="service-visual" style="overflow:hidden;padding:0;">
+                    <div class="service-num">01</div>
+                    <img src="./images/photography.png" style="width:100%;height:100%;object-fit:cover;opacity:0.85;"
+                        alt="Photography">
+                </div>
+                <div class="service-content">
+                    <div class="section-tag">01 — Photography</div>
+                    <h2>Capture Every Perfect Moment</h2>
+                    <p>High-end photography for products, portraits, events and campaigns that leave a lasting
+                        impression on your audience.</p>
+                    <ul class="service-list">
+                        <li>Product Photography</li>
+                        <li>Portrait & Lifestyle Shoots</li>
+                        <li>Event Coverage</li>
+                        <li>Campaign & Editorial</li>
+                        <li>Post-production & Retouching</li>
+                    </ul>
+                    <button class="btn-primary" onclick="navigateTo('contact')">
+                        Get Started
+                        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" width="14"
+                            height="14">
+                            <path d="M3 8h10M9 4l4 4-4 4" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Video Production -->
+            <div class="service-row reverse">
+                <div class="service-content">
+                    <div class="section-tag">02 — Video Production</div>
+                    <h2>From Concept to Final Cut</h2>
+                    <p>We create cinematic videos that engage and convert your audience. From brand films to social
+                        content, we handle everything end-to-end.</p>
+                    <ul class="service-list">
+                        <li>Brand Films & Documentaries</li>
+                        <li>Social Media Videos</li>
+                        <li>Commercial & Advertising</li>
+                        <li>Motion Graphics & Animation</li>
+                        <li>Color Grading & Post Production</li>
+                    </ul>
+                    <button class="btn-primary" onclick="navigateTo('contact')">
+                        Get Started
+                        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" width="14"
+                            height="14">
+                            <path d="M3 8h10M9 4l4 4-4 4" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="service-visual" style="overflow:hidden;padding:0;">
+                    <div class="service-num">02</div>
+                    <img src="./images/filming.png" style="width:100%;height:100%;object-fit:cover;opacity:0.85;"
+                        alt="Video">
+                </div>
+            </div>
+
+            <!-- Marketing -->
+            <div class="service-row">
+                <div class="service-visual" style="overflow:hidden;padding:0;">
+                    <div class="service-num">03</div>
+                    <img src="./images/marketing.png" style="width:100%;height:100%;object-fit:cover;opacity:0.85;"
+                        alt="Marketing">
+                </div>
+                <div class="service-content">
+                    <div class="section-tag">03 — Marketing</div>
+                    <h2>Smart Strategies, Real Results</h2>
+                    <p>Smart marketing strategies and paid campaigns that grow your brand and generate real, measurable
+                        results for your business.</p>
+                    <ul class="service-list">
+                        <li>Social Media Management</li>
+                        <li>Paid Advertising (Meta, Google)</li>
+                        <li>Content Strategy & Creation</li>
+                        <li>Analytics & Reporting</li>
+                        <li>Influencer Partnerships</li>
+                    </ul>
+                    <button class="btn-primary" onclick="navigateTo('contact')">
+                        Get Started
+                        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" width="14"
+                            height="14">
+                            <path d="M3 8h10M9 4l4 4-4 4" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Branding & Design -->
+            <div class="service-row reverse">
+                <div class="service-content">
+                    <div class="section-tag">04 — Branding & Design</div>
+                    <h2>Build a Brand That Stands Out</h2>
+                    <p>Creative design solutions and strong visual identity that make your brand stand out in a
+                        competitive market and connect with your target audience.</p>
+                    <ul class="service-list">
+                        <li>Brand Identity & Logo Design</li>
+                        <li>Brand Guidelines & Strategy</li>
+                        <li>Packaging Design</li>
+                        <li>UI/UX & Digital Design</li>
+                        <li>Print & Collateral</li>
+                    </ul>
+                    <button class="btn-primary" onclick="navigateTo('contact')">
+                        Get Started
+                        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" width="14"
+                            height="14">
+                            <path d="M3 8h10M9 4l4 4-4 4" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="service-visual" style="overflow:hidden;padding:0;">
+                    <div class="service-num">04</div>
+                    <img src="./images/desgining.jpeg" style="width:100%;height:100%;object-fit:cover;opacity:0.85;"
+                        alt="Branding">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- ============================================================
+     PAGE 3: WORK
+============================================================ -->
+    <div id="work" class="page">
+
+        <!-- Header -->
+        <div
+            style="max-width:1200px;margin:0 auto;padding:20px 48px 0;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:end;padding-bottom:40px;border-bottom:1px solid var(--border);">
+            <div>
+                <div class="section-tag">Our Work</div>
+                <h1
+                    style="font-family:var(--font-head);font-size:clamp(42px,5vw,64px);font-weight:800;letter-spacing:-1.5px;line-height:1.05;margin-top:12px;">
+                    Our Latest<br>Projects<span style="color:var(--red);">.</span></h1>
+            </div>
+            <p style="color:var(--text-muted);font-size:14px;line-height:1.8;align-self:end;padding-bottom:6px;">Explore
+                our recent work and see how we help brands tell their stories through powerful visuals.</p>
+        </div>
+
+        <!-- Filters -->
+        <div style="max-width:1200px;margin:0 auto;padding:24px 48px 0;display:flex;gap:6px;flex-wrap:wrap;">
+            <button class="filter-btn active" onclick="filterWork(this,'all')">All</button>
+            <button class="filter-btn" onclick="filterWork(this,'photography')">Photography</button>
+            <button class="filter-btn" onclick="filterWork(this,'video')">Video</button>
+            <button class="filter-btn" onclick="filterWork(this,'branding')">Branding</button>
+            <button class="filter-btn" onclick="filterWork(this,'marketing')">Marketing</button>
+        </div>
+
+        <!-- Grid -->
+        <div style="max-width:1200px;margin:20px auto 0;padding:0 48px;" id="workGrid">
+            <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;">
+
+                <!-- Row 1 -->
+                <div class="work-item" data-cat="branding" onclick="navigateTo('work-details')"
+                    style="background:var(--bg-3);border:1px solid var(--border-soft);cursor:pointer;overflow:hidden;transition:all 0.3s ease;">
+                    <div style="position:relative;overflow:hidden;aspect-ratio:1.1;">
+                        <img src="./images/kernet.png"
+                            style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease;"
+                            class="wi-img">
+                        <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.7) 0%,transparent 50%);opacity:0;transition:opacity 0.3s;"
+                            class="wi-ov"></div>
+                    </div>
+                    <div style="padding:10px 12px;">
+                        <div style="font-family:var(--font-head);font-size:13px;font-weight:700;color:var(--text);">
+                            Kernet</div>
+                        <div style="font-size:11px;color:var(--text-muted);margin-top:2px;">Branding</div>
+                    </div>
+                </div>
+
+                <div class="work-item" data-cat="marketing" onclick="navigateTo('work-details')"
+                    style="background:var(--bg-3);border:1px solid var(--border-soft);cursor:pointer;overflow:hidden;transition:all 0.3s ease;">
+                    <div style="position:relative;overflow:hidden;aspect-ratio:1.1;">
+                        <img src="./images/toja.png"
+                            style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease;"
+                            class="wi-img">
+                        <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.7) 0%,transparent 50%);opacity:0;transition:opacity 0.3s;"
+                            class="wi-ov"></div>
+                    </div>
+                    <div style="padding:10px 12px;">
+                        <div style="font-family:var(--font-head);font-size:13px;font-weight:700;color:var(--text);">Toja
+                        </div>
+                        <div style="font-size:11px;color:var(--text-muted);margin-top:2px;">Social Media Campaign</div>
+                    </div>
+                </div>
+
+                <div class="work-item" data-cat="branding" onclick="navigateTo('work-details')"
+                    style="background:var(--bg-3);border:1px solid var(--border-soft);cursor:pointer;overflow:hidden;transition:all 0.3s ease;">
+                    <div style="position:relative;overflow:hidden;aspect-ratio:1.1;">
+                        <img src="./images/building.png"
+                            style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease;"
+                            class="wi-img">
+                        <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.7) 0%,transparent 50%);opacity:0;transition:opacity 0.3s;"
+                            class="wi-ov"></div>
+                    </div>
+                    <div style="padding:10px 12px;">
+                        <div style="font-family:var(--font-head);font-size:13px;font-weight:700;color:var(--text);">ARQA
+                        </div>
+                        <div style="font-size:11px;color:var(--text-muted);margin-top:2px;">Brand Identity</div>
+                    </div>
+                </div>
+
+                <div class="work-item" data-cat="marketing" onclick="navigateTo('work-details')"
+                    style="background:var(--bg-3);border:1px solid var(--border-soft);cursor:pointer;overflow:hidden;transition:all 0.3s ease;">
+                    <div style="position:relative;overflow:hidden;aspect-ratio:1.1;">
+                        <img src="./images/deliver 2.png"
+                            style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease;"
+                            class="wi-img">
+                        <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.7) 0%,transparent 50%);opacity:0;transition:opacity 0.3s;"
+                            class="wi-ov"></div>
+                    </div>
+                    <div style="padding:10px 12px;">
+                        <div style="font-family:var(--font-head);font-size:13px;font-weight:700;color:var(--text);">
+                            Driver</div>
+                        <div style="font-size:11px;color:var(--text-muted);margin-top:2px;">Digital Marketing</div>
+                    </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="work-item" data-cat="branding" onclick="navigateTo('work-details')"
+                    style="background:var(--bg-3);border:1px solid var(--border-soft);cursor:pointer;overflow:hidden;transition:all 0.3s ease;">
+                    <div style="position:relative;overflow:hidden;aspect-ratio:1.1;">
+                        <img src="./images/labtop.png"
+                            style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease;"
+                            class="wi-img">
+                        <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.7) 0%,transparent 50%);opacity:0;transition:opacity 0.3s;"
+                            class="wi-ov"></div>
+                    </div>
+                    <div style="padding:10px 12px;">
+                        <div style="font-family:var(--font-head);font-size:13px;font-weight:700;color:var(--text);">NILE
+                            Developments</div>
+                        <div style="font-size:11px;color:var(--text-muted);margin-top:2px;">Web Development</div>
+                    </div>
+                </div>
+
+                <div class="work-item" data-cat="video" onclick="navigateTo('work-details')"
+                    style="background:var(--bg-3);border:1px solid var(--border-soft);cursor:pointer;overflow:hidden;transition:all 0.3s ease;">
+                    <div style="position:relative;overflow:hidden;aspect-ratio:1.1;">
+                        <img src="./images/media.png"
+                            style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease;"
+                            class="wi-img">
+                        <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.7) 0%,transparent 50%);opacity:0;transition:opacity 0.3s;"
+                            class="wi-ov"></div>
+                    </div>
+                    <div style="padding:10px 12px;">
+                        <div style="font-family:var(--font-head);font-size:13px;font-weight:700;color:var(--text);">
+                            Frenfy</div>
+                        <div style="font-size:11px;color:var(--text-muted);margin-top:2px;">Media Production</div>
+                    </div>
+                </div>
+
+                <div class="work-item" data-cat="photography" onclick="navigateTo('work-details')"
+                    style="background:var(--bg-3);border:1px solid var(--border-soft);cursor:pointer;overflow:hidden;transition:all 0.3s ease;">
+                    <div style="position:relative;overflow:hidden;aspect-ratio:1.1;">
+                        <img src="./images/coffee.png"
+                            style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease;"
+                            class="wi-img">
+                        <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.7) 0%,transparent 50%);opacity:0;transition:opacity 0.3s;"
+                            class="wi-ov"></div>
+                    </div>
+                    <div style="padding:10px 12px;">
+                        <div style="font-family:var(--font-head);font-size:13px;font-weight:700;color:var(--text);">RAW
+                            Coffee</div>
+                        <div style="font-size:11px;color:var(--text-muted);margin-top:2px;">Product Photography</div>
+                    </div>
+                </div>
+
+                <div class="work-item" data-cat="marketing" onclick="navigateTo('work-details')"
+                    style="background:var(--bg-3);border:1px solid var(--border-soft);cursor:pointer;overflow:hidden;transition:all 0.3s ease;">
+                    <div style="position:relative;overflow:hidden;aspect-ratio:1.1;">
+                        <img src="./images/gym.png"
+                            style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease;"
+                            class="wi-img">
+                        <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.7) 0%,transparent 50%);opacity:0;transition:opacity 0.3s;"
+                            class="wi-ov"></div>
+                    </div>
+                    <div style="padding:10px 12px;">
+                        <div style="font-family:var(--font-head);font-size:13px;font-weight:700;color:var(--text);">
+                            Pulse Gym</div>
+                        <div style="font-size:11px;color:var(--text-muted);margin-top:2px;">Social Media Campaign</div>
+                    </div>
+                </div>
+
+                <!-- Row 3 -->
+                <div class="work-item" data-cat="branding" onclick="navigateTo('work-details')"
+                    style="background:var(--bg-3);border:1px solid var(--border-soft);cursor:pointer;overflow:hidden;transition:all 0.3s ease;">
+                    <div style="position:relative;overflow:hidden;aspect-ratio:1.1;">
+                        <img src="./images/vertex.png"
+                            style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease;"
+                            class="wi-img">
+                        <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.7) 0%,transparent 50%);opacity:0;transition:opacity 0.3s;"
+                            class="wi-ov"></div>
+                    </div>
+                    <div style="padding:10px 12px;">
+                        <div style="font-family:var(--font-head);font-size:13px;font-weight:700;color:var(--text);">
+                            Vertex</div>
+                        <div style="font-size:11px;color:var(--text-muted);margin-top:2px;">Branding</div>
+                    </div>
+                </div>
+
+                <div class="work-item" data-cat="photography" onclick="navigateTo('work-details')"
+                    style="background:var(--bg-3);border:1px solid var(--border-soft);cursor:pointer;overflow:hidden;transition:all 0.3s ease;">
+                    <div style="position:relative;overflow:hidden;aspect-ratio:1.1;">
+                        <img src="./images/bottles.png"
+                            style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease;"
+                            class="wi-img">
+                        <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.7) 0%,transparent 50%);opacity:0;transition:opacity 0.3s;"
+                            class="wi-ov"></div>
+                    </div>
+                    <div style="padding:10px 12px;">
+                        <div style="font-family:var(--font-head);font-size:13px;font-weight:700;color:var(--text);">Lune
+                            Skin</div>
+                        <div style="font-size:11px;color:var(--text-muted);margin-top:2px;">Product Photography</div>
+                    </div>
+                </div>
+
+                <div class="work-item" data-cat="video" onclick="navigateTo('work-details')"
+                    style="background:var(--bg-3);border:1px solid var(--border-soft);cursor:pointer;overflow:hidden;transition:all 0.3s ease;">
+                    <div style="position:relative;overflow:hidden;aspect-ratio:1.1;">
+                        <img src="./images/MOOVE.png"
+                            style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease;"
+                            class="wi-img">
+                        <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.7) 0%,transparent 50%);opacity:0;transition:opacity 0.3s;"
+                            class="wi-ov"></div>
+                    </div>
+                    <div style="padding:10px 12px;">
+                        <div style="font-family:var(--font-head);font-size:13px;font-weight:700;color:var(--text);">
+                            Moove</div>
+                        <div style="font-size:11px;color:var(--text-muted);margin-top:2px;">Video Production</div>
+                    </div>
+                </div>
+
+                <div class="work-item" data-cat="branding" onclick="navigateTo('work-details')"
+                    style="background:var(--bg-3);border:1px solid var(--border-soft);cursor:pointer;overflow:hidden;transition:all 0.3s ease;">
+                    <div style="position:relative;overflow:hidden;aspect-ratio:1.1;">
+                        <img src="./images/edge.png"
+                            style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease;"
+                            class="wi-img">
+                        <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.7) 0%,transparent 50%);opacity:0;transition:opacity 0.3s;"
+                            class="wi-ov"></div>
+                    </div>
+                    <div style="padding:10px 12px;">
+                        <div style="font-family:var(--font-head);font-size:13px;font-weight:700;color:var(--text);">Edge
+                        </div>
+                        <div style="font-size:11px;color:var(--text-muted);margin-top:2px;">Brand Identity</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Load More -->
+        <div style="text-align:center;padding:48px 0 80px;">
+            <button class="btn-outline">
+                Load More Projects
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                    <path d="M3 8h10M9 4l4 4-4 4" />
+                </svg>
+            </button>
+        </div>
+
+    </div>
+
+    <div id="work-details" class="page">
+        <div class="back-link">
+            <span style="font-size:11px;letter-spacing:2px;color:var(--red);text-transform:uppercase;font-weight:600;">●
+                Project Spotlight</span>
+        </div>
+
+        <div class="detail-hero">
+            <div class="detail-title">
+                <div class="section-tag" style="margin-bottom:28px;">Our Work</div>
+                <h1>Toja Social Media Campaign<span class="dot">.</span></h1>
+                <div class="detail-meta">
+                    <div class="meta-item"><label>Client</label><span>Toja</span></div>
+                    <div class="meta-item"><label>Category</label><span>Social Media Campaign</span></div>
+                    <div class="meta-item"><label>Date</label><span>April 2024</span></div>
+                    <div class="meta-item"><label>Services</label><span>Photography, Video, Marketing</span></div>
+                </div>
+                <div style="display:flex;gap:12px;">
+                    <a class="social-link" href="#" style="width:auto;padding:0 16px;gap:8px;">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                        </svg>
+                    </a>
+                    <a class="social-link" href="#">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="detail-main-img" style="padding:0;overflow:hidden;">
+                <img src="./images/toja.png" style="width:100%;height:100%;object-fit:cover;" alt="Toja Campaign">
+            </div>
+        </div>
+
+        <div class="detail-body">
+            <div>
+                <h3>Project Overview</h3>
+                <p>A complete social media campaign for Toja, including concept development, photography, videography
+                    and content creation that increased engagement by 300%. The campaign spanned 3 months with
+                    consistent delivery of high-quality visual content across all major platforms.</p>
+            </div>
+            <div>
+                <h3>The Challenge</h3>
+                <p>To create a bold and unique visual identity that stands out in a competitive market and connects with
+                    the target audience. We needed to balance brand authenticity with broad appeal while maintaining
+                    high production standards throughout every piece of content.</p>
+            </div>
+        </div>
+
+        <div class="detail-gallery">
+            <div class="gallery-carousel-wrap">
+
+                <button class="carousel-btn" id="prevBtn" onclick="slideGallery(-1)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                        <path d="M15 18l-6-6 6-6" />
+                    </svg>
+                </button>
+
+                <div class="carousel-track-outer" id="galleryTrackOuter">
+                    <div class="carousel-track" id="galleryTrack">
+                        <div class="carousel-item"><img src="./images/market 2.jpeg"
+                                style="width:100%;height:100%;object-fit:cover;" alt=""></div>
+                        <div class="carousel-item"><img src="./images/red1.jpeg"
+                                style="width:100%;height:100%;object-fit:cover;" alt=""></div>
+                        <div class="carousel-item"><img src="./images/toja.png"
+                                style="width:100%;height:100%;object-fit:cover;" alt=""></div>
+                        <div class="carousel-item"><img src="./images/media.png"
+                                style="width:100%;height:100%;object-fit:cover;" alt=""></div>
+                        <div class="carousel-item"><img src="./images/kernet.png"
+                                style="width:100%;height:100%;object-fit:cover;" alt=""></div>
+                    </div>
+                </div>
+
+                <button class="carousel-btn" id="nextBtn" onclick="slideGallery(1)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                        <path d="M9 18l6-6-6-6" />
+                    </svg>
+                </button>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- ============================================================
+     PAGE 5: ABOUT
+============================================================ -->
+    <div id="about" class="page">
+
+        <!-- About Hero: 2-col layout -->
+        <div
+            style="max-width:1200px;margin:0 auto;padding:60px 48px 0;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;">
+            <div>
+                <div class="section-tag">About RedX</div>
+                <h1
+                    style="font-family:var(--font-head);font-size:clamp(36px,4vw,52px);font-weight:800;letter-spacing:-1px;line-height:1.1;margin-top:16px;margin-bottom:20px;">
+                    We Are RedX</h1>
+                <p style="color:var(--text-muted);font-size:14px;line-height:1.8;max-width:340px;">A team of creatives,
+                    storytellers and strategists who turn ideas into powerful visual experiences.</p>
+            </div>
+            <div style="position:relative;overflow:hidden;aspect-ratio:1.6;border:1px solid var(--border);">
+                <img src="./images/Studio.png" style="width:100%;height:100%;object-fit:cover;" alt="RedX Studio">
+            </div>
+        </div>
+
+        <!-- Stats row -->
+        <div
+            style="max-width:1200px;margin:0 auto;padding:48px 48px 0;display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border);">
+            <div style="background:var(--bg);padding:32px 24px;display:flex;align-items:center;gap:14px;">
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+                    <circle cx="18" cy="18" r="17" stroke="var(--red)" stroke-width="1.5" opacity="0.4" />
+                    <path d="M12 24c0-3.314 2.686-6 6-6s6 2.686 6 6" stroke="var(--red)" stroke-width="1.5"
+                        stroke-linecap="round" />
+                    <circle cx="18" cy="14" r="3" stroke="var(--red)" stroke-width="1.5" />
+                </svg>
+                <div>
+                    <div style="font-family:var(--font-display);font-size:28px;line-height:1;color:var(--text);">
+                        200<span style="color:var(--red);">+</span></div>
+                    <div style="font-size:11px;color:var(--text-muted);margin-top:3px;letter-spacing:0.3px;">Projects
+                        Completed</div>
+                </div>
+            </div>
+            <div style="background:var(--bg);padding:32px 24px;display:flex;align-items:center;gap:14px;">
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+                    <circle cx="18" cy="18" r="17" stroke="var(--red)" stroke-width="1.5" opacity="0.4" />
+                    <path d="M12 19l4 3 8-8" stroke="var(--red)" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                <div>
+                    <div style="font-family:var(--font-display);font-size:28px;line-height:1;color:var(--text);">50<span
+                            style="color:var(--red);">+</span></div>
+                    <div style="font-size:11px;color:var(--text-muted);margin-top:3px;letter-spacing:0.3px;">Happy
+                        Clients</div>
+                </div>
+            </div>
+            <div style="background:var(--bg);padding:32px 24px;display:flex;align-items:center;gap:14px;">
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+                    <circle cx="18" cy="18" r="17" stroke="var(--red)" stroke-width="1.5" opacity="0.4" />
+                    <path d="M10 22 l4-6 4 3 4-8 4 4" stroke="var(--red)" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                <div>
+                    <div style="font-family:var(--font-display);font-size:28px;line-height:1;color:var(--text);">5M<span
+                            style="color:var(--red);">+</span></div>
+                    <div style="font-size:11px;color:var(--text-muted);margin-top:3px;letter-spacing:0.3px;">People
+                        Reached</div>
+                </div>
+            </div>
+            <div style="background:var(--bg);padding:32px 24px;display:flex;align-items:center;gap:14px;">
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+                    <circle cx="18" cy="18" r="17" stroke="var(--red)" stroke-width="1.5" opacity="0.4" />
+                    <path d="M18 11 l2 5h5l-4 3 1.5 5L18 21l-4.5 3 1.5-5-4-3h5z" stroke="var(--red)" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <div>
+                    <div style="font-family:var(--font-display);font-size:28px;line-height:1;color:var(--text);">98<span
+                            style="color:var(--red);">%</span></div>
+                    <div style="font-size:11px;color:var(--text-muted);margin-top:3px;letter-spacing:0.3px;">Client
+                        Satisfaction</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Our Story -->
+        <div
+            style="max-width:1200px;margin:0 auto;padding:60px 48px 80px;border-top:1px solid var(--border);margin-top:48px;">
+            <h2
+                style="font-family:var(--font-head);font-size:36px;font-weight:800;letter-spacing:-0.5px;margin-bottom:20px;">
+                Our Story</h2>
+            <p style="color:var(--text-muted);font-size:14px;line-height:1.9;max-width:420px;margin-bottom:36px;">RedX
+                was founded with a simple mission: to help brands communicate their story through powerful visuals. We
+                believe the right design and smart marketing can transform businesses.</p>
+            <button class="btn-outline" onclick="navigateTo('contact')">
+                More About Us
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                    <path d="M3 8h10M9 4l4 4-4 4" />
+                </svg>
+            </button>
+        </div>
+
+    </div>
+
+    <div id="studio" class="page">
+
+        <!-- Studio Hero: 2-col -->
+        <div
+            style="max-width:1200px;margin:0 auto;padding:60px 48px 0;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;">
+            <div>
+                <div class="section-tag">Our Studio</div>
+                <h1
+                    style="font-family:var(--font-head);font-size:clamp(40px,4.5vw,60px);font-weight:800;letter-spacing:-1.5px;line-height:1.05;margin-top:16px;margin-bottom:20px;">
+                    Built For<br>Creativity<span style="color:var(--red);">.</span></h1>
+                <p style="color:var(--text-muted);font-size:14px;line-height:1.8;max-width:340px;">A modern studio
+                    equipped with the latest technology to bring ideas to life.</p>
+            </div>
+            <div style="overflow:hidden;aspect-ratio:1.58;border:1px solid var(--border);">
+                <img src="./images/st.png"
+                    style="width:100%;height:100%;object-fit:cover;" alt="Studio">
+            </div>
+        </div>
+
+        <!-- Features row -->
+        <div
+            style="max-width:1200px;margin:40px auto 0;padding:0 48px;display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border);">
+            <div style="background:var(--bg);padding:28px 24px;display:flex;align-items:center;gap:14px;">
+                <div
+                    style="width:40px;height:40px;border:1px solid rgba(232,25,44,0.3);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--red)" stroke-width="1.5">
+                        <rect x="2" y="6" width="20" height="14" rx="2" />
+                        <path d="M16 2v4M8 2v4M2 10h20" />
+                    </svg>
+                </div>
+                <div>
+                    <div
+                        style="font-family:var(--font-head);font-size:13px;font-weight:700;line-height:1.3;color:var(--text);">
+                        Professional<br>Equipment</div>
+                </div>
+            </div>
+            <div style="background:var(--bg);padding:28px 24px;display:flex;align-items:center;gap:14px;">
+                <div
+                    style="width:40px;height:40px;border:1px solid rgba(232,25,44,0.3);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--red)" stroke-width="1.5">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                    </svg>
+                </div>
+                <div>
+                    <div
+                        style="font-family:var(--font-head);font-size:13px;font-weight:700;line-height:1.3;color:var(--text);">
+                        Creative<br>Environment</div>
+                </div>
+            </div>
+            <div style="background:var(--bg);padding:28px 24px;display:flex;align-items:center;gap:14px;">
+                <div
+                    style="width:40px;height:40px;border:1px solid rgba(232,25,44,0.3);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--red)" stroke-width="1.5">
+                        <circle cx="12" cy="8" r="4" />
+                        <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" />
+                    </svg>
+                </div>
+                <div>
+                    <div
+                        style="font-family:var(--font-head);font-size:13px;font-weight:700;line-height:1.3;color:var(--text);">
+                        Expert<br>Team</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery: 3 images row -->
+        <div
+            style="max-width:1200px;margin:8px auto 0;padding:0 48px 80px;display:grid;grid-template-columns:repeat(3,1fr);gap:8px;">
+            <div style="overflow:hidden;aspect-ratio:1.45;border:1px solid var(--border);">
+                <img src="./images/st2.png"
+                    style="width:100%;height:100%;object-fit:cover;transition:transform 0.4s ease;"
+                    onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'"
+                    alt="Studio">
+            </div>
+            <div style="overflow:hidden;aspect-ratio:1.45;border:1px solid var(--border);">
+                <img src="./images/st3.png"
+                    style="width:100%;height:100%;object-fit:cover;transition:transform 0.4s ease;"
+                    onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'"
+                    alt="Studio">
+            </div>
+            <div style="overflow:hidden;aspect-ratio:1.45;border:1px solid var(--border);">
+                <img src="./images/st4.png"
+                    style="width:100%;height:100%;object-fit:cover;transition:transform 0.4s ease;"
+                    onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'"
+                    alt="Studio">
+            </div>
+        </div>
+
+    </div>
+
+    <div id="contact" class="page">
+        <div class="contact-layout">
+            <div class="contact-info">
+                <div class="section-tag">Contact Us</div>
+                <h1>Let's Create Something Amazing<em>Together.</em></h1>
+                <p>Have a project in mind? Let's talk about how we can help your brand grow and tell your story through
+                    powerful visuals.</p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-item-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <polyline points="22,6 12,13 2,6" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="contact-item-text">
+                            <label>Email</label>
+                            <span><a href="mailto:redxglobal.info@gmail.com" style="text-decoration: none; color: white;">redxglobal.info@gmail.com</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a class="social-link" href="https://www.instagram.com/redxglobal?igsh=b2xxZGRxc2p3ZG4w&utm_source=qr" target="_blank">Ig</a>
+                    <a class="social-link" href="https://www.facebook.com/share/1CxMpwuJXu/?mibextid=wwXIfr" target="_blank">Fb</a>
+                    <a class="social-link" href="https://linktr.ee/redxglobal?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaASOvYRleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAad05Y3wA0okvKTiEbdGebCZvuI_qJDZDHMiBTfzwRZq-15bOxGjqOgsThxwTw_aem_GQjhhUZXF4H6qdUJOOCqpg" target="_blank">Lt</a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Your Name</label>
+                        <input class="form-control" id="cf-name" type="text" placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input class="form-control" id="cf-email" type="email" placeholder="john@example.com">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Phone Number</label>
+                    <input class="form-control" id="cf-phone" type="tel" placeholder="+20 000 000 0000">
+                </div>
+                <div class="form-group">
+                    <label>Project Type</label>
+                    <select class="form-control" id="cf-service">
+                        <option value="" disabled selected>Select a service</option>
+                        <option>Photography</option>
+                        <option>Video Production</option>
+                        <option>Marketing Campaign</option>
+                        <option>Branding & Design</option>
+                        <option>Full Package</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Your Message</label>
+                    <textarea class="form-control" id="cf-message" placeholder="Tell us about your project..."></textarea>
+                </div>
+                <button class="btn-primary" id="submitBtn" style="width:100%;justify-content:center;" onclick="submitForm(event)">
+                    Send Message
+                    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                        <path d="M3 8h10M9 4l4 4-4 4" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer-logo">RED<span>X</span></div>
+            <div class="footer-nav">
+                <a onclick="navigateTo('home')">Home</a>
+                <a onclick="navigateTo('services')">Services</a>
+                <a onclick="navigateTo('work')">Work</a>
+                <a onclick="navigateTo('about')">About</a>
+            </div>
+            <div class="footer-copy">© 2026 RedX Creative Studio. All rights reserved.</div>
+        </footer>
+    </div>
+
+    <!-- ✅ FIX 1: EmailJS SDK loaded correctly as standalone script tag (no inline code inside src tag) -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script>
+        // ✅ FIX 2: Initialize EmailJS with Public Key
+        emailjs.init("hyYkkx3GrS7n1K0DK");
+
+        // ===== LOADER =====
+        let loaderPct = 0;
+        const loaderInterval = setInterval(() => {
+            loaderPct = Math.min(loaderPct + Math.random() * 15, 99);
+            document.getElementById('loaderPct').textContent = Math.floor(loaderPct);
+        }, 80);
+
+        window.addEventListener('load', () => {
+            clearInterval(loaderInterval);
+            document.getElementById('loaderPct').textContent = '100';
+            setTimeout(() => {
+                document.getElementById('loader').classList.add('hidden');
+                initReveal();
+            }, 500);
+        });
+
+        // ===== NAVIGATION =====
+        function navigateTo(pageId) {
+            const target = document.getElementById(pageId);
+            if (target) {
+                const offset = 72;
+                const top = target.getBoundingClientRect().top + window.scrollY - offset;
+                window.scrollTo({ top, behavior: 'smooth' });
+            }
+        }
+
+        function updateNavLinks(pageId) {
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.toggle('active', link.dataset.page === pageId);
+            });
+        }
+
+        // ===== NAVBAR SCROLL + ACTIVE SECTION HIGHLIGHT =====
+        window.addEventListener('scroll', () => {
+            document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 60);
+            const sections = ['home', 'services', 'work', 'work-details', 'about', 'studio', 'contact'];
+            const offset = 120;
+            let current = 'home';
+            sections.forEach(id => {
+                const el = document.getElementById(id);
+                if (el && el.getBoundingClientRect().top - offset <= 0) current = id;
+            });
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.toggle('active', link.dataset.page === current);
+            });
+        });
+
+        // ===== MOBILE MENU =====
+        let menuOpen = false;
+        function toggleMenu() {
+            menuOpen = !menuOpen;
+            document.getElementById('mobileMenu').classList.toggle('open', menuOpen);
+            document.getElementById('menuBtn').innerHTML = menuOpen
+                ? '<span style="transform:rotate(45deg);transform-origin:center;position:absolute;"></span><span style="opacity:0;"></span><span style="transform:rotate(-45deg);transform-origin:center;position:absolute;"></span>'
+                : '<span></span><span></span><span></span>';
+        }
+
+        // ===== WORK FILTER =====
+        function filterWork(btn, cat) {
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            document.querySelectorAll('.work-item').forEach(item => {
+                const show = cat === 'all' || item.dataset.cat === cat;
+                item.style.display = show ? 'block' : 'none';
+                if (show) {
+                    item.style.animation = 'fadeSlideIn 0.4s ease forwards';
+                }
+            });
+        }
+
+        // ===== SCROLL REVEAL =====
+        function initReveal() {
+            setTimeout(() => {
+                const els = document.querySelectorAll('.page.active .reveal');
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+                }, { threshold: 0.1 });
+                els.forEach(el => observer.observe(el));
+            }, 100);
+        }
+
+        // ===== CONTACT FORM SUBMIT — ✅ FIXED: now sends via EmailJS =====
+        function submitForm(e) {
+            const btn = document.getElementById('submitBtn');
+
+            // Collect field values
+            const name    = document.getElementById('cf-name').value.trim();
+            const email   = document.getElementById('cf-email').value.trim();
+            const phone   = document.getElementById('cf-phone').value.trim();
+            const service = document.getElementById('cf-service').value;
+            const message = document.getElementById('cf-message').value.trim();
+
+            // Basic validation
+            if (!name || !email || !message) {
+                alert('Please fill in your name, email and message.');
+                return;
+            }
+
+            btn.textContent = 'Sending...';
+            btn.style.opacity = '0.7';
+            btn.disabled = true;
+
+            const templateParams = {
+                from_name:    name,
+                from_email:   email,
+                phone:        phone,
+                service: service,
+                message:      message
+            };
+
+            emailjs.send('service_4psrrb8', 'template_7dutc0c', templateParams)
+                .then(function () {
+                    btn.innerHTML = '✓ Message Sent! <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M2 8l4 4 8-8"/></svg>';
+                    btn.style.opacity = '1';
+                    btn.style.background = '#166534';
+                    btn.disabled = false;
+                    // Clear fields
+                    document.getElementById('cf-name').value    = '';
+                    document.getElementById('cf-email').value   = '';
+                    document.getElementById('cf-phone').value   = '';
+                    document.getElementById('cf-service').value = '';
+                    document.getElementById('cf-message').value = '';
+                }, function (error) {
+                    btn.textContent = 'Failed — Try Again';
+                    btn.style.opacity = '1';
+                    btn.style.background = '#7f1d1d';
+                    btn.disabled = false;
+                    console.error('EmailJS error:', error);
+                    alert('Something went wrong. Error: ' + JSON.stringify(error));
+                });
+        }
+
+        // ── THEME TOGGLE ──
+        function toggleTheme() {
+            const body = document.body;
+            const knob = document.getElementById('themeKnob');
+            const isLight = body.classList.toggle('light');
+            knob.textContent = isLight ? '☀️' : '🌙';
+            localStorage.setItem('redx-theme', isLight ? 'light' : 'dark');
+        }
+
+        // Restore saved theme
+        (function () {
+            const saved = localStorage.getItem('redx-theme');
+            if (saved === 'light') {
+                document.body.classList.add('light');
+                const knob = document.getElementById('themeKnob');
+                if (knob) knob.textContent = '☀️';
+            }
+        })();
+
+        // Init — observe all sections on load
+        initReveal();
+        window.addEventListener('scroll', () => {
+            document.querySelectorAll('.reveal:not(.visible)').forEach(el => {
+                if (el.getBoundingClientRect().top < window.innerHeight - 60) {
+                    el.classList.add('visible');
+                }
+            });
+        }, { passive: true });
+
+        let galleryIndex = 0;
+        function slideGallery(dir) {
+            const outer = document.getElementById('galleryTrackOuter');
+            const items = document.querySelectorAll('.carousel-item');
+            const vis = 4, gap = 10;
+            const itemW = (outer.clientWidth - gap * (vis - 1)) / vis + gap;
+            const max = Math.max(0, items.length - vis);
+            galleryIndex = Math.min(Math.max(galleryIndex + dir, 0), max);
+            document.getElementById('galleryTrack').style.transform = `translateX(-${galleryIndex * itemW}px)`;
+            document.getElementById('prevBtn').style.opacity = galleryIndex === 0 ? '0.35' : '1';
+            document.getElementById('nextBtn').style.opacity = galleryIndex >= max ? '0.35' : '1';
+        }
+        slideGallery(0);
+    </script>
+
+</body>
+</html>
